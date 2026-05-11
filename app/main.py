@@ -2,9 +2,6 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import List
 
-from app.retriever.chroma_store import (
-    search_assessments
-)
 
 from app.services.ranking_service import (
     rerank_results
