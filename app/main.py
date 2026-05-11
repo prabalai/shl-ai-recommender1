@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import List
+from app.search import search_assessments
 
 
 from app.services.ranking_service import (
